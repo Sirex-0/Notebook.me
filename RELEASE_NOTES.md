@@ -1,5 +1,14 @@
 # Release Notes
 
+## 6.7 Space to Think
+
+- Introduced **Zen Mode** (`Ctrl+Shift+Z`) for a distraction-free writing environment. It centers the editor, constrains text width, and hides all other UI elements until you hit Escape.
+- Introduced **Split Editor** (`Ctrl+\`) for side-by-side multitasking with independent text areas, scroll positions, and tab bars.
+- Added **Wiki-style Note Linking**. Type `[[` to instantly search and link to your existing notes. Links are subtly highlighted and can be `Ctrl+Click`ed to navigate between them. Hover over links to check if the file still exists.
+- Added a **Snippet Library** (`Ctrl+Shift+L`) to easily store and insert frequently used text templates directly into your active editor.
+- Introduced **Encrypted Notes**. Right from the File menu, you can encrypt sensitive notes using military-grade AES-128 encryption with a SHA-256 derived key. They appear with a padlock `🔒` in your library tree and automatically request your password upon opening.
+
+
 ## 6.5 Engage 
 
 - Revamped the **About** dialog with a modern, centered layout and a new glassmorphism aesthetic.

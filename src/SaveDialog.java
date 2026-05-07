@@ -19,7 +19,7 @@ public class SaveDialog extends JDialog {
         this.theme = theme;
         this.currentDir = suggestedFile != null && suggestedFile.getParentFile() != null
             ? suggestedFile.getParentFile()
-            : new File(System.getProperty("user.home"));
+            : new File(javax.swing.filechooser.FileSystemView.getFileSystemView().getDefaultDirectory(), "Vervain/Notebook.Me");
 
         setSize(580, 470);
         setLocationRelativeTo(parent);

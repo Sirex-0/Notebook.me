@@ -2,7 +2,7 @@
 setlocal
 pushd "%~dp0"
 echo =============================================
-echo   notebook.me v6.2 - Portable Build
+echo   notebook.me v6.7 - Portable Build (Windows)
 echo =============================================
 echo.
 PowerShell -NoProfile -ExecutionPolicy Bypass -File "%~dp0build-portable.ps1"
